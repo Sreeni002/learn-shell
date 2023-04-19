@@ -31,7 +31,7 @@ modify(change) some lines
     sed -i -e '2 c Hello Universe' -e '/centos/ c Hello Galaxy' passwd
 
 
-delete some words 
+delete some words  
     sed -i -e 's|Hello||g' passwd 
 modify(substitute) some words 
     sed -i -e 's|bin|BIN|g' passwd 
